@@ -3,6 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000; 
+    position:fixed;
+    /* background-color: rgba(rgb(217, 182, 182), rgb(16, 133, 16), rgb(32, 32, 107), alpha); */
+    background-color: rgba(255, 255, 255, 0.9); 
+    /* transition: background-color 0.3s; */
+    width: 80%;
+    top: 0;
+    
 }
 .navbar .logo{
     width: 150px;
